@@ -1,0 +1,975 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,400,700,900&display=swap');
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	color: #2E2E2E;
+	margin-bottom: 310px;
+	background: #f5f5f3;
+}
+
+/* Nav Styles */
+nav {
+	background: #2E2E2E;
+	color: #fff;
+}
+
+
+nav ul li a {
+	color: #fff;
+	font-weight: 800;
+}
+
+.navbar-toggler:before {
+    color: #f62f5e;
+}
+
+.navbar-brand, nav h4 {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: 900;
+	color: #F62F5E !important;
+}
+
+.navbar-nav {
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+/* HOMEPAGE STYLING STARTS */
+
+/* Homepage Header */
+.homepage nav {
+	background: #fff !important;
+	color: #2E2E2E;
+}
+
+.homepage nav ul li a {
+	color: #2E2E2E;
+}
+
+.homepage nav ul li {
+	margin-right: 70px;
+}
+
+/* Homepage Upperhead */
+.upperhead {
+	position: relative;
+	background-image: url(/images/homepage-1.jpg);
+	background-position: center;
+	height: 600px;
+}
+
+.upperhead__content {
+	position: absolute;
+	top: 120px;
+	left: 200px;
+	width: 600px;
+}
+
+.upperhead__content h1 {
+	color: #fff !important;
+	font-family: 'Merriweather', serif;
+}
+
+.upperhead__content p {
+	color: #fff !important;
+	font-size: 30px;
+	font-weight: 800;
+}
+
+/* Homepage Category Banner */
+.homepage__category {
+	position: relative;
+	background: #fff;
+}
+
+.homepage__category__content h3 {
+	margin: 0;
+	color: #2E2E2E;
+	font-weight: 900;
+	font-size: 35px;
+	margin-bottom: 1em;
+}
+
+.homepage__category__content p {
+	font-weight: 300;
+	font-size: 22px;
+}
+
+.homepage__category__tag {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	background-color: #00D3CA;
+	padding: 2px 10px 2px 10px;
+	font-size: 20px;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.lowerheader__widget {
+	padding: 5em;
+	text-align: center;
+}
+
+.lowerheader__widget--1 {
+	background-color: #84E6F1;
+	font-family: 'Merriweather', serif;
+}
+
+.lowerheader__widget--2 {
+	background-image: linear-gradient(rgba(229,213,132, 0.6), rgba(229,213,132,0.6)), url(/images/men.jpg);
+	background-size: cover;
+	min-height: 400px;
+	padding: 8em;
+}
+
+.lowerheader__widget--2 h1 {
+	color: #fff !important;
+	font-family: 'Merriweather', serif;
+}
+
+.lowerheader__widget--3 {
+	padding: 0px;
+}
+
+.lowerheader__widget--3 img {
+	width: 100%;
+	height: 500px;
+}
+
+.lowerheader__widget__content {
+	background-color: #fff;
+	padding: 3em;
+}
+
+.lowerheader__widget__content h1 {
+	color: #2E2E2E;
+	font-family: 'Merriweather', serif;
+}
+
+.lowerheader__widget__content p {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.lowerheader__widget--1 h1,
+.lowerheader__widget--2 h1 {
+	color: #2E2E2E;
+	font-weight: 900;
+}
+
+.lowerheader__widget--1 h4 {
+	font-size: 40px;
+}
+
+.homepage__subscribe {
+	background-color: #EFEFEF;
+}
+
+.homepage__subscribe__content h3 {
+	font-weight: 900;
+}
+
+.homepage__subscribe__content p {
+	font-size: 22px;
+	font-weight: 800;
+}
+
+.homepage__subscribe input[type="email"] {
+	border-radius: 100px;
+}
+
+.homepage__footer {
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 310px;
+	background-color: #fff;
+}
+
+.homepage__footer h5 {
+	color: #2E2E2E;
+}
+
+/* HOMEPAGE STYLING ENDS */
+
+/* CATEGORY PAGE STYLING STARTS */
+.category__header {
+	padding: 3em 7em 3em 7em;
+	height: 400px;
+	background-image: url(/images/category.jpg);
+	background-size: cover;
+	background-position: center;
+	/*background: #ACA8A6;*/
+}
+
+.category__header h1 {
+	color: #fff;
+	font-family: 'Merriweather', serif;
+}
+
+.category__header ul li {
+	list-style: none;
+}
+
+.category__header ul li a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.filter__header {
+	background-color: #FAFAFA;
+	padding: 20px;
+}
+
+.filter__header h4 {
+	color: #2E2E2E;
+	font-size: 25px;
+}
+
+.filter__header ul li {
+	list-style: none;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.filter__header ul li span {
+	color: #AAAAAA;
+}
+
+.filter__body {
+	background-color: #FFF;
+	padding: 20px;
+}
+
+.filter__body__widget h4 {
+	color: #C5C5C5;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.filter__body__widget .ulimit,
+.filter__body__widget .llimit {
+	font-size: 13px;
+}
+
+.filter__brands {
+	height: 150px;
+	overflow: scroll;
+	overflow-x: hidden;
+	/*background-color: #222;*/
+}
+
+.filter__brands .checkbox {
+	font-size: 20px;
+}
+
+.filter__brands .checkbox .icons {
+	line-height: 30px;
+    font-size: 25px;
+}
+
+.filter__brands::-webkit-scrollbar {
+  width: 5px;
+}
+
+.filter__brands::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+
+
+/* CATEGORY PAGE STYLING ENDS */
+
+
+/* Footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 290px;
+    line-height: 60px;
+    background-color: #2E2E2E;
+}
+
+.footer-light {
+	background-color: #FFF !important;
+	color: #2E2E2E !important;
+}
+
+.footer a {  
+	color: #fff;
+	font-size: 25px; 
+}
+
+.footer-light a {  
+	color: #2E2E2E;
+}
+
+.footer-social span {
+	text-align: center;
+	width: 80px;
+	padding: 15px;
+	font-size: 35px;
+	color: #2E2E2E;
+	background: #EFEFEF;
+	border-radius: 100px;
+}
+
+
+/* Link Style */
+a {
+    color: #F62F5E;
+    text-decoration: none;
+    transition: .25s;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #F62F5E;
+}
+
+/* Custom Input */
+input:focus {
+  border-color: #F62F5E !important;
+}
+
+/* Custom Range Slider */
+.ui-slider-range {
+    background-color: #f62f5e;
+}
+
+.ui-slider-handle {
+    background-color: #f62f5e;
+}
+
+.ui-slider-handle:hover,
+.ui-slider-handle:focus {
+    background-color: #f62f5e;
+} 
+
+/* Custom Checkbox */
+
+.checkbox input[type="checkbox"].custom-checkbox:checked + .icons .icon-checked, 
+.checkbox input[type="radio"].custom-radio:checked + .icons .icon-checked, 
+.radio input[type="checkbox"].custom-checkbox:checked + .icons .icon-checked, 
+.radio input[type="radio"].custom-radio:checked + .icons .icon-checked {
+	color: #6EB2FB;
+}
+
+.checkbox-btn {
+    width: 80px;
+    background-color:#EFEFEF;
+    border-radius:4px;
+    transition: .3s all;
+    margin: 2px;
+}
+
+.checkbox-btn:hover {
+    background: #dcdada;
+}
+
+.checkbox-btn label {
+    width: 100%;
+    margin: 0px;
+}
+
+.checkbox-btn label span {
+	border-radius:4px;
+    text-align:center;
+    display:block;
+}
+
+.checkbox-btn label input {
+    position:absolute;
+    top:-20px;
+    -webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	display:none;
+}
+
+.checkbox-btn input:checked + span {
+    background-color:#F62F5E;
+    color:#fff;
+}
+/* CUSTOM CHECKBOX ENDS */
+
+
+/* The container */
+.custom-radiobtn {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.custom-radiobtn input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 21px;
+  width: 21px;
+  background-color: red;
+  border-radius: 50%;
+  transition: .3s all;
+}
+
+/* On mouse-over, add a grey background color */
+.custom-radiobtn:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.custom-radiobtn input:checked ~ .checkmark {
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.custom-radiobtn input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.custom-radiobtn .checkmark:after {
+ 	top: -6px;
+    left: -6px;
+    width: 33px;
+    height: 33px;
+	border-radius: 50%;
+	border: 1px solid #ccc;
+}
+
+/* CUSTOM RADIO BUTTON ENDS */
+
+
+/* PRODUCT STYLING */
+
+.product {
+	position: relative;
+	text-align: center;
+	background-color: #fff;
+	padding: 10px;
+	transition: 0.2s all;
+	overflow: hidden;
+	height: 391px;
+}
+
+.product .product__title {
+	font-size: 20px;
+	font-weight: 700;
+	color: #2E2E2E !important;
+}
+
+.product .product__price {
+	font-size: 20px;
+}
+
+.product .product__overlay {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -150px;
+	width: 100%;
+	height: 0px;
+	background-color: rgba(255,255,255,0.8);
+	transition: 0.5s all;
+	padding: 2em;
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content:center;
+}
+
+.product__overlay a {
+	font-size: 25px;
+}
+
+.product:hover .product__overlay {
+	height: 410px;
+	bottom: 0;
+}
+
+.product__tag {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background-color: #F62F5E;
+	color: #fff;
+	letter-spacing: 4px;
+}
+
+.product__tag p {
+	padding: 0px;
+	margin: 0px;
+	font-weight: 900;
+	font-size: 20px;
+	padding: 0px 10px 0px 15px;
+}
+
+/* PRODUCT STYLING ENDS*/
+
+/* CHECKOUT STYLING */
+.checkout {
+	background-color: #fff;
+}
+
+.checkout__title {
+	color: #2E2E2E;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.checkout__steps {
+	padding: 2em;
+}
+
+.checkout__steps ul {
+	list-style: none;
+}
+
+.checkout__steps ul li {
+	position: relative;
+	width: 100%;
+}
+
+.checkout__steps ul li a {
+	display: block;
+}
+
+.checkout__steps ul li:after {
+	position: absolute;
+    content: "";
+    height: 8px;
+    width: 100%;
+    left: 27px;
+    bottom: 51px;
+    background-color: #F5F5F3;
+    /*z-index: -1;*/
+}
+
+.checkout__steps ul li:last-child:after {
+	content: none;
+}
+
+.checkout__steps ul li:last-child {
+	width: auto;
+}
+
+.title__icon {
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-color: #F5F5F3;
+	border-radius: 100px;
+	z-index: 99999999;
+}
+
+.title__text {
+	display: block;
+	padding-top: 10px;
+	padding-left: 10px;
+	font-weight: 800;
+	color: #2E2E2E;
+}
+
+.checkout__steps .current .title__icon {
+	background-color: #F62F5E;
+}
+
+.checkout__steps .current .title__text {
+	color: #F62F5E;
+}
+
+.checkout__steps .current:after {
+	background-color: #F62F5E !important;
+}
+
+.checkout__footer {
+	background-color: #EFEFEF;
+}
+
+/* CHECKOUT STYLING ENDS*/
+
+/* CUSTOM TABLE */
+.checkout-table td, .checkout-table th {
+	border-bottom: none;
+	border-top: none;
+}
+
+.checkout-table thead th {
+	border-bottom: none;
+	color: #CDCDCD;
+}
+
+.checkout-table thead th:nth-child(2),
+.checkout-table thead th:nth-child(3) {
+	text-align: right;
+}
+
+.checkout-table tbody tr:nth-child(odd) {
+	background-color: #F7F7F7;
+}
+
+.checkout-table td:nth-child(2),
+.checkout-table td:nth-child(3) {
+	text-align: right;
+}
+
+.checkout-table td:nth-child(3) {
+	color: #F62F5E;
+	font-weight: 900;
+}
+
+.checkout__payment {
+	background-color: #F9F9F9;
+	padding: 13px;
+	text-align: center;
+	border: 1px solid #D8D8D8;
+}
+
+.payment__active {
+	border: 1px solid #6EB2FB;
+	background-color: #F3F6F9;
+}
+
+.checkout__payment label {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.checkout__payment .radio {
+	line-height: 1.1;
+	display: inline-block;
+}
+
+.checkout__success h1 {
+	font-family: 'Merriweather', serif;
+}
+
+/* CUSTOM BIG BANNER */
+
+/* SHOPPING CART STYLING */
+
+.cart {
+	height: 400px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.cart-table td, .cart-table th {
+	border-bottom: none;
+	border-top: none;
+}
+
+.cart-table thead th {
+	border-bottom: none;
+	color: #CDCDCD;
+}
+
+.cart-table thead th:not(:first-child) {
+	text-align: center;
+}
+
+.cart-table td:nth-child(1) {
+	width: 51%;
+}
+
+.cart-table td:nth-child(2) p {
+	padding: 0px;
+	margin: 0px;
+}
+
+.cart-table td:not(:first-child) {
+	text-align: center;
+}
+
+
+.cart-table td:nth-child(4) {
+	/*font-size: 25px;*/
+	font-weight: 900;
+}
+
+.cart-table td {
+	vertical-align: middle;
+}
+
+.product__info h5 {
+	margin: 0;
+	color: #2E2E2E;
+	font-size: 20px;
+}
+
+.product__info p {
+	font-size: 15px;
+}
+
+/* SHOPPING CART STYLING END */
+
+/* SINGLE PRODUCT PAGE */
+.product__view {
+	background-color: #fff;
+}
+.product__view__details {
+	width: 550px;
+	text-align: left;
+}
+
+.product__view__details h1 {
+	margin: 0px;
+	font-size: 35px;
+	color: #2E2E2E;
+	text-align: left;
+	font-weight: 900;
+}
+
+.product__rating i {
+	color: #EEEEEE;
+}
+
+.checked {
+  color: orange;
+}
+
+.breadcrumb {
+	background-color: #fff;
+	border-radius: 0;
+}
+
+.product__reviews {
+	background-color: #FAFAFA;
+}
+
+.product__reviews h4{
+	color: #2E2E2E;
+}
+
+.review h5 {
+	color: #2E2E2E;
+	font-size: 20px;
+	font-weight: 900;
+	margin: 0;
+}
+
+.review span {
+	font-size: 14px;
+	font-weight: 600;
+	color: #BABABABA;
+}
+
+.review__content p {
+	font-size: 23px;
+}
+
+.review__actions span {
+	font-size: 20px;
+	color: #2E2E2E;
+	font-weight: 100;
+	padding: 10px;
+}
+
+.review__form label {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.similar__products h4 {
+	color: #2E2E2E;
+	font-weight: 900;
+}
+
+/* The heart of the matter */
+.similar__products__list > .row {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.similar__products__list > .row > .col-md-3 {
+  display: inline-block;
+  float: none;
+}
+
+/* width */
+.similar__products__list .row::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+
+/* Track */
+.similar__products__list .row::-webkit-scrollbar-track {
+  background: #EFEFEF; 
+  border-radius: 100px;
+}
+
+/* Handle */
+.similar__products__list .row::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background: #6C6D7A; 
+}
+
+
+/*.similar__products__list .row::-webkit-scrollbar-track {
+  background: #222; 
+}*/
+
+
+/* SINGLE PRODUCT PAGE END*/
+
+.big-banner {
+	width: 100%;
+	color: #fff;
+	background-image: url(/images/footwear.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 4em;
+}
+
+.big-banner__content {
+	width: 550px;
+}
+
+.big-banner__content h1 {
+	margin: 0px;
+	font-family: 'Merriweather', serif;
+}
+
+.big-banner__content p {
+	font-size: 30px;
+	font-weight: 700;
+}
+
+/* CUSTOM BIG BANNER ENDS*/
+
+/* Custom Buttons */
+.btn-big {
+	width: 200px;
+	padding: 20px;
+}
+
+.btn-small {
+	width: 120px;
+	padding: 10px;
+	font-size: 15px !important;
+}
+
+.btn-xsmall {
+	width: 50px;
+	padding: 10px;
+	font-size: 15px !important;
+}
+
+.btn-light {
+  font-size: 20px;
+  color: #F62F5E;
+  border-radius: 40px;
+  border: 2px solid #FFF;
+  background: #fff;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-light:hover {
+	background: #fff;
+	border: 2px solid #F62F5E;
+	color: #F62F5E;
+}
+
+.btn-pink {
+  font-size: 20px;
+  color: #fff;
+  border-radius: 40px;
+  border: 2px solid #F62F5E;
+  background: #F62F5E;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-pink:hover {
+	background: #F62F5E;
+	border: 2px solid #fff;
+}
+
+/* Custom Input */
+.header-search {
+	background: #969696;
+	border-color: #969696;
+	border-radius: 100px;
+}
+
+.header-search::placeholder {
+	color: #fff;
+}
+
+.no-list {
+}
+
+.no-list li {
+	display: inline;
+	list-style: none;
+	margin-right: 20px;
+	font-weight: bold;
+}
+
+/* Custom CSS */
+.shadow {
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.1), 0 0px 4px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text-dark {
+	color: #2E2E2E;
+}
+
+.text-grey {
+	color: #CDCDCD;
+}
+
+.text-mid-header {
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.text-small-header {
+	font-size: 18px;
+}
+
+.rounded-input {
+	border-radius: 100px;
+	text-align: center;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0
+}
